@@ -18,29 +18,43 @@ const getDevices = async () => {
             " id = " + device.deviceId + " groundId = " + device.groupId);
     });
 }
+const divConstraints = document.getElementById('constraints');
 const getUserMedia = async (constraints, element) => {
     try {
         const stream = await navigator.mediaDevices.getUserMedia(constraints);
-        element.autoplay = true;
-        element.playsInline = true;
+        const videoTrack = stream.getVideoTracks()[0];
+        const videoConstraints = videoTrack.getSettings();
+        divConstraints.textContent = JSON.stringify(videoConstraints,null,2);
         element.srcObject = stream;
     } catch (e) {
         console.log(e)
     }
-
 }
 const init = () => {
-    const element = document.getElementById('video')
+    const picture = document.getElementById('picture');
+    const snapshot = document.getElementById('snapshot');
+    // const element = document.getElementById('audioplayer');
+    const element = document.getElementById('video');
     const width = element.offsetWidth,
         height = element.offsetHeight;
+    // getUserMedia({
+    //     audio: true,
+    //     video:false
+    // }, element);
     getUserMedia({
         // audio: true,
         video: {
             width,
-            height
+            height,
+            frameRate:15,
+            facingMode:'enviroment'
         }
     }, element);
     getDevices();
-
+    picture.width = width;
+    picture.height = height;
+    snapshot.onclick = function () {
+        picture.getContext('2d').drawImage(element, 0, 0, width, height);
+    }
 }
 init();
