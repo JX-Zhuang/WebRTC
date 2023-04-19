@@ -1,0 +1,131 @@
+[2022-10-21T22:55:13.446] [DEBUG] default - logger start
+[2022-10-21T23:02:41.071] [DEBUG] default - logger start
+[2022-10-21T23:03:35.296] [DEBUG] default - join room: false
+[2022-10-21T23:03:35.297] [DEBUG] default - io.sockets.adapter.rooms: Map(2) {
+  'yBvfhcseKrBsZT0CAAAB' => Set(1) { 'yBvfhcseKrBsZT0CAAAB' },
+  false => Set(1) { 'yBvfhcseKrBsZT0CAAAB' }
+}
+[2022-10-21T23:03:35.297] [DEBUG] default - myRoom: Set(1) { 'yBvfhcseKrBsZT0CAAAB' }
+[2022-10-21T23:03:35.298] [DEBUG] default - the user number of room (false) is: 1
+[2022-10-21T23:04:13.231] [DEBUG] default - join room: false
+[2022-10-21T23:04:13.231] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  'yBvfhcseKrBsZT0CAAAB' => Set(1) { 'yBvfhcseKrBsZT0CAAAB' },
+  false => Set(2) { 'yBvfhcseKrBsZT0CAAAB', 'cxZ9Nu6CKVWmqbgYAAAD' },
+  'cxZ9Nu6CKVWmqbgYAAAD' => Set(1) { 'cxZ9Nu6CKVWmqbgYAAAD' }
+}
+[2022-10-21T23:04:13.232] [DEBUG] default - myRoom: Set(2) { 'yBvfhcseKrBsZT0CAAAB', 'cxZ9Nu6CKVWmqbgYAAAD' }
+[2022-10-21T23:04:13.232] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:04:13.240] [DEBUG] default - message, room: false, data.type:offer
+[2022-10-21T23:04:13.252] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:04:13.268] [DEBUG] default - message, room: false, data.type:answer
+[2022-10-21T23:04:13.310] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:04:32.722] [DEBUG] default - join room: false
+[2022-10-21T23:04:32.722] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  'yBvfhcseKrBsZT0CAAAB' => Set(1) { 'yBvfhcseKrBsZT0CAAAB' },
+  false => Set(2) { 'yBvfhcseKrBsZT0CAAAB', '4Dq2m6D1mJFFWlcXAAAF' },
+  '4Dq2m6D1mJFFWlcXAAAF' => Set(1) { '4Dq2m6D1mJFFWlcXAAAF' }
+}
+[2022-10-21T23:04:32.722] [DEBUG] default - myRoom: Set(2) { 'yBvfhcseKrBsZT0CAAAB', '4Dq2m6D1mJFFWlcXAAAF' }
+[2022-10-21T23:04:32.722] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:04:32.730] [DEBUG] default - message, room: false, data.type:offer
+[2022-10-21T23:04:32.778] [DEBUG] default - message, room: false, data.type:answer
+[2022-10-21T23:04:32.813] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:05:46.667] [DEBUG] default - join room: false
+[2022-10-21T23:05:46.667] [DEBUG] default - io.sockets.adapter.rooms: Map(2) {
+  'WbFareLHbr6oZQ8hAAAH' => Set(1) { 'WbFareLHbr6oZQ8hAAAH' },
+  false => Set(1) { 'WbFareLHbr6oZQ8hAAAH' }
+}
+[2022-10-21T23:05:46.667] [DEBUG] default - myRoom: Set(1) { 'WbFareLHbr6oZQ8hAAAH' }
+[2022-10-21T23:05:46.668] [DEBUG] default - the user number of room (false) is: 1
+[2022-10-21T23:05:48.855] [DEBUG] default - join room: false
+[2022-10-21T23:05:48.856] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  'WbFareLHbr6oZQ8hAAAH' => Set(1) { 'WbFareLHbr6oZQ8hAAAH' },
+  false => Set(2) { 'WbFareLHbr6oZQ8hAAAH', 'Wv7ZnQolUv44M8eDAAAJ' },
+  'Wv7ZnQolUv44M8eDAAAJ' => Set(1) { 'Wv7ZnQolUv44M8eDAAAJ' }
+}
+[2022-10-21T23:05:48.856] [DEBUG] default - myRoom: Set(2) { 'WbFareLHbr6oZQ8hAAAH', 'Wv7ZnQolUv44M8eDAAAJ' }
+[2022-10-21T23:05:48.856] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:05:48.870] [DEBUG] default - message, room: false, data.type:offer
+[2022-10-21T23:05:48.894] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:05:48.909] [DEBUG] default - message, room: false, data.type:answer
+[2022-10-21T23:05:48.937] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:09:05.016] [DEBUG] default - join room: false
+[2022-10-21T23:09:05.016] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  'WbFareLHbr6oZQ8hAAAH' => Set(1) { 'WbFareLHbr6oZQ8hAAAH' },
+  false => Set(2) { 'WbFareLHbr6oZQ8hAAAH', 'rg1uFUUD7aQw3GllAAAL' },
+  'rg1uFUUD7aQw3GllAAAL' => Set(1) { 'rg1uFUUD7aQw3GllAAAL' }
+}
+[2022-10-21T23:09:05.016] [DEBUG] default - myRoom: Set(2) { 'WbFareLHbr6oZQ8hAAAH', 'rg1uFUUD7aQw3GllAAAL' }
+[2022-10-21T23:09:05.016] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:09:05.025] [DEBUG] default - message, room: false, data.type:offer
+[2022-10-21T23:09:05.053] [DEBUG] default - message, room: false, data.type:answer
+[2022-10-21T23:09:05.068] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:09:29.096] [DEBUG] default - join room: false
+[2022-10-21T23:09:29.096] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  'WbFareLHbr6oZQ8hAAAH' => Set(1) { 'WbFareLHbr6oZQ8hAAAH' },
+  false => Set(2) { 'WbFareLHbr6oZQ8hAAAH', '1X4KIv2fs1GyRJ5GAAAN' },
+  '1X4KIv2fs1GyRJ5GAAAN' => Set(1) { '1X4KIv2fs1GyRJ5GAAAN' }
+}
+[2022-10-21T23:09:29.096] [DEBUG] default - myRoom: Set(2) { 'WbFareLHbr6oZQ8hAAAH', '1X4KIv2fs1GyRJ5GAAAN' }
+[2022-10-21T23:09:29.097] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:09:29.105] [DEBUG] default - message, room: false, data.type:offer
+[2022-10-21T23:09:29.141] [DEBUG] default - message, room: false, data.type:answer
+[2022-10-21T23:09:29.177] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:09:57.200] [DEBUG] default - join room: false
+[2022-10-21T23:09:57.200] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  'WbFareLHbr6oZQ8hAAAH' => Set(1) { 'WbFareLHbr6oZQ8hAAAH' },
+  false => Set(2) { 'WbFareLHbr6oZQ8hAAAH', 'swiGo8CpUK0VcNI1AAAP' },
+  'swiGo8CpUK0VcNI1AAAP' => Set(1) { 'swiGo8CpUK0VcNI1AAAP' }
+}
+[2022-10-21T23:09:57.200] [DEBUG] default - myRoom: Set(2) { 'WbFareLHbr6oZQ8hAAAH', 'swiGo8CpUK0VcNI1AAAP' }
+[2022-10-21T23:09:57.200] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:09:57.209] [DEBUG] default - message, room: false, data.type:offer
+[2022-10-21T23:09:57.258] [DEBUG] default - message, room: false, data.type:answer
+[2022-10-21T23:09:57.287] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:10:15.972] [DEBUG] default - join room: false
+[2022-10-21T23:10:15.972] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  false => Set(2) { 'swiGo8CpUK0VcNI1AAAP', '3G1FLorfK49a3TPJAAAR' },
+  'swiGo8CpUK0VcNI1AAAP' => Set(1) { 'swiGo8CpUK0VcNI1AAAP' },
+  '3G1FLorfK49a3TPJAAAR' => Set(1) { '3G1FLorfK49a3TPJAAAR' }
+}
+[2022-10-21T23:10:15.972] [DEBUG] default - myRoom: Set(2) { 'swiGo8CpUK0VcNI1AAAP', '3G1FLorfK49a3TPJAAAR' }
+[2022-10-21T23:10:15.972] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:10:15.989] [DEBUG] default - message, room: false, data.type:offer
+[2022-10-21T23:10:16.016] [DEBUG] default - message, room: false, data.type:answer
+[2022-10-21T23:10:16.044] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:10:36.327] [DEBUG] default - join room: false
+[2022-10-21T23:10:36.327] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  false => Set(2) { 'swiGo8CpUK0VcNI1AAAP', 'M4A7t-PdV9mikV2yAAAT' },
+  'swiGo8CpUK0VcNI1AAAP' => Set(1) { 'swiGo8CpUK0VcNI1AAAP' },
+  'M4A7t-PdV9mikV2yAAAT' => Set(1) { 'M4A7t-PdV9mikV2yAAAT' }
+}
+[2022-10-21T23:10:36.328] [DEBUG] default - myRoom: Set(2) { 'swiGo8CpUK0VcNI1AAAP', 'M4A7t-PdV9mikV2yAAAT' }
+[2022-10-21T23:10:36.328] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:10:48.471] [DEBUG] default - join room: false
+[2022-10-21T23:10:48.471] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  false => Set(2) { 'swiGo8CpUK0VcNI1AAAP', 'JBTowVDCyw9I7k4GAAAV' },
+  'swiGo8CpUK0VcNI1AAAP' => Set(1) { 'swiGo8CpUK0VcNI1AAAP' },
+  'JBTowVDCyw9I7k4GAAAV' => Set(1) { 'JBTowVDCyw9I7k4GAAAV' }
+}
+[2022-10-21T23:10:48.471] [DEBUG] default - myRoom: Set(2) { 'swiGo8CpUK0VcNI1AAAP', 'JBTowVDCyw9I7k4GAAAV' }
+[2022-10-21T23:10:48.472] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:11:01.074] [DEBUG] default - join room: false
+[2022-10-21T23:11:01.074] [DEBUG] default - io.sockets.adapter.rooms: Map(3) {
+  false => Set(2) { 'JBTowVDCyw9I7k4GAAAV', 'Bha_mumGCq1bBgLiAAAX' },
+  'JBTowVDCyw9I7k4GAAAV' => Set(1) { 'JBTowVDCyw9I7k4GAAAV' },
+  'Bha_mumGCq1bBgLiAAAX' => Set(1) { 'Bha_mumGCq1bBgLiAAAX' }
+}
+[2022-10-21T23:11:01.075] [DEBUG] default - myRoom: Set(2) { 'JBTowVDCyw9I7k4GAAAV', 'Bha_mumGCq1bBgLiAAAX' }
+[2022-10-21T23:11:01.075] [DEBUG] default - the user number of room (false) is: 2
+[2022-10-21T23:11:01.094] [DEBUG] default - message, room: false, data.type:offer
+[2022-10-21T23:11:01.150] [DEBUG] default - message, room: false, data.type:candidate
+[2022-10-21T23:11:01.182] [DEBUG] default - message, room: false, data.type:answer
+[2022-10-21T23:11:01.219] [DEBUG] default - message, room: false, data.type:candidate
+[2022-12-01T15:37:12.037] [DEBUG] default - join room: false
+[2022-12-01T15:37:12.042] [DEBUG] default - io.sockets.adapter.rooms: Map(2) {
+  'VU6hqErezBaEJMHeAAAZ' => Set(1) { 'VU6hqErezBaEJMHeAAAZ' },
+  false => Set(1) { 'VU6hqErezBaEJMHeAAAZ' }
+}
+[2022-12-01T15:37:12.046] [DEBUG] default - myRoom: Set(1) { 'VU6hqErezBaEJMHeAAAZ' }
+[2022-12-01T15:37:12.046] [DEBUG] default - the user number of room (false) is: 1
+[2022-12-01T15:37:14.513] [DEBUG] default - the user number of room is: 0
